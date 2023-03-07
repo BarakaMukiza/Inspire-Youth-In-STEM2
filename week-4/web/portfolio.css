@@ -1,0 +1,62 @@
+body{
+    background-color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    background-image: url(assets/stars.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+h1 , h2{
+    color:blue;
+    padding:5px;
+    margin:25;
+    background-color: #9a8e4c;
+    margin:40px;
+    border:none;
+    border-radius:10px;
+    align-self:centre;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: black;
+}
+
+
+
+
+
+#photos{
+    color:blue;
+    padding:5px;
+    margin:25;
+    background-color: #9a8e4c;
+    margin:40px;
+    border:none;
+    border-radius:10px;
+    align-self:centre;
+}
+#view{
+    color:blue;
+    padding:5px;
+    margin:25;
+    background-color: maroon;
+    margin:40px;
+    border:none;
+    border-radius:10px;
+    align-self:centre;
+}
+#contact_button{
+    color:gray;
+    padding:5px;
+    margin:25;
+    background-color: black;
+    margin:40px;
+    border:none;
+    border-radius:10px;
+    align-self:centre;
+}

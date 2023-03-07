@@ -1,0 +1,40 @@
+
+body{
+    background-image: url(assets/download1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+td{
+    font-size: 20px;
+    vertical-align: top;
+    text-align: center;
+}
+#heading{
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: top;
+    text-align: center;
+}
+button{
+    border-radius: 10px;
+    border-style: groove;
+    border-color: gray;
+    
+    
+}
+#login{
+    border-radius: 30px;
+    border-style: groove;
+    border-color:black;
+    background-color: black;
+    color: gray;
+    vertical-align:middle;
+    align-self: center;
+}
+h2{
+    font-weight:bold;
+    font-style: oblique;
+    text-align: center;
+    text-decoration-style:double;
+    text-decoration-line: underline;
+}

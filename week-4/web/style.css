@@ -1,0 +1,39 @@
+body{ 
+    margin:0;
+    background-image: url(assets/earth.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+table{
+    width:100%;
+     border-collapse:collapse; 
+     font:14px Arial,sans-serif;
+}
+h1{
+    padding: 20px 20px;
+    
+}
+#row2{
+    height:170px;
+}
+#data1{
+    width:20%;
+    padding:20px;
+    
+    vertical-align: top;
+}
+ul{
+    list-style:none;
+    padding:0px;
+    line-height:24px;
+}
+#data2{
+    padding:20px;
+    
+    vertical-align:top;
+}
+#data3{
+    padding: 5px;
+    
+}
+
