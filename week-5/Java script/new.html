@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ClUB LOGIN PAGE</title>
+  </head>
+  <body>
+    <h1>CLUB IDENTIFICATION</h1>
+    <h1>Fill the form below:</h1>
+
+  <p>To join the club, kindly enter you Name and Age:</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age"><br><br>
+      <button type="button" onclick="checkAge()">enter </button>
+    </form>
+    <div id="result"></div>
+    <script>
+      function checkAge() {
+        // Inputing the value of Age and Name
+        var name = document.getElementById("name").value;
+        var age = document.getElementById("age").value;
+        
+        // Checking if the person has qualified to be a member....
+        if (age >= 18) {
+          // Message to display if the user is qualified
+          document.getElementById("result").innerHTML = "Congratulations " + name + ", You are qualified!";
+        } else {
+          // Error message to be displayed if the user seeking Club Membership is not qualified
+          document.getElementById("result").innerHTML = "Sorry " + name + ", not Qualified.";
+        }
+      }
+    </script>
+    <audio controls>
+      <source src="audio2.mp3"
+      type="audio/mp3">
+    </audio>
+  </body>
+</html>

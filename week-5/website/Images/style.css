@@ -6,8 +6,8 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/success3.jpg) ;
-    background-color: grey;
+    background-image: url(images/banner.png) ;
+    background-color:gray;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: centre;
@@ -15,6 +15,11 @@
     position: relative;
     
 }
+.header img{
+    width: 300px;
+    height: 200px;
+}
+
 
 nav{
     display:block;
@@ -42,7 +47,7 @@ nav img{
 .nav-links ul li a{
     text-decoration: none;
     font-size: 20px;
-    color:whitesmoke;
+    color: black;
 
 }
 .nav-links ul li a:hover{
@@ -52,7 +57,6 @@ nav img{
 }
 
 .textbox{
-    color:white;
     text-align: center;
     font-style:oblique;
     
@@ -63,14 +67,17 @@ nav img{
     text-decoration-line: underline;
     font-weight:bold ;
     font-size: 40px;
+    color: black;
 }
 .textbox a{
     font-size: 26px;
+    color: black;
 
 }
 .textbox p{
     font-size: 24px;
     font-weight: lighter;
+    color: whitesmoke;
 }
 
 .textbox img {

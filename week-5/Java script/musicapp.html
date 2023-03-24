@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="music.css">
+        <meta name="viewpoint" content="with=device-width , initial-scale=1.0">
+        <script src="music.js"></script>
+    </head>
+    <body>
+        <section class="header">
+            <img src="assets/boom2.jpg" id="img1" >
+            <h1>NAIBEATS</h1>
+            <h2>PLAYLIST</h2>
+            <div class="sautisol">
+                <img src="assets/suzanna.jpg">
+                <h2>SUZANNA-SAUTI SOL.MP3</h2>
+                <audio controls id="suzanna">
+                    <source src="assets/Sauti Sol Suzanna Official.mp3"
+                    type="audio/mp3">
+                </audio>
+                <button onclick="sautisolplay()">PLAY</button>
+                <button onclick="sautisolpause()">STOP</button>
+            </div>
+            <div class="bensol">
+                <img src="assets/medicine.jpg">
+                <h2>MEDICINE-BENSOL MP3</h2>
+                <audio controls id="medicine">
+                    <source src="assets/Bensoul - Medicine (Official Audio) SMS [Skiza 5802534] to 811.mp3"
+                    type="audio/mp3">
+                </audio>
+                <button onclick="medicineplay()">PLAY</button>
+                <button onclick="medicinepause()">STOP</button>
+            </div>
+        </section>
+    </body>
+</html>

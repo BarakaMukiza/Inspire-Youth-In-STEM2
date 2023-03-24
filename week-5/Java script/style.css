@@ -1,0 +1,15 @@
+body{
+    background-color: grey;
+    font-size: auto;
+}
+button{
+    background-color: aqua;
+    border-radius: 10px;
+    font-style: oblique;
+    align-self: center;
+}
+button:hover{
+    padding: 10px;
+
+}
+

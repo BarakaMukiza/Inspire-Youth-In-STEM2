@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>selection website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Checking age qualificalion.</h1>
+        <form id=" form">
+            <label for="name">Name:</label><br>
+            <input type="text" size="20" id="name"><br>
+            <label for="number">Age:</label><br>
+            <input type="int" size="10" id="age">
+        </form>
+        <button type="button" onclick="say()">Confirm</button>
+        <div id="statement"></div>
+        <script>
+
+            function say() {
+                var name = document.getElementById("name").value;
+                var age = document.getElementById("age").value;
+
+                if (age>=18) {
+                    document.getElementById("statement").innerHTML = "Congratulations " + name + ", You are qualified!";
+                }else{
+                    document.getElementById("statement").innerHTML = "Congratulations " + name + ", You don't qualified!";
+                }
+                
+            }
+        </script>
+    </body>
+</html>

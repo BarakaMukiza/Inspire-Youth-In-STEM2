@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--
+        <h1 id="text">Javascript basics</h1>
+        <h1 id="f_name"></h1>
+        <h1 id="s_name"></h1>
+        <h1 id="age"></h1>
+        <h1 id="weight"></h1>
+        <h2 id="f_number"></h2>
+        <h2 id="s_number"></h2>
+        <h2 id="sum_num"></h2>
+        <h2 id="full_name"></h2>
+        <h2 id="myfruit"></h2>
+        -->
+        <h1>LOG IN SYSTEM</h1>
+        <form >
+            <label for="name">Name</label><br>
+            <input type="text" size="30" id="name"><br>
+            <label for="age">Age</label><br>
+            <input type="int" size="10" id="age">
+        </form>
+        <button id="confirm_btn">CONFIRM</button>
+        <h2 id="get in">You can get in</h2>
+
+        <h1 id="number">0</h1>
+        <button id="increasebtn">Increase</button>
+        <button id="decreasebtn">Decrease</button>
+        <button id="resetbtn">Reset</button>
+
+        <script>src="index1.js"
+        var number = 0;
+        
+        document.getElementById("increasebtn").onclick = function increase_number(){
+            number +=1
+                console.log(number)
+                document.getElementById("number").innerHTML = number
+        }
+        document.getElementById("decreasebtn").onclick = function decrease_number(){
+                number -= 1;
+                console.log(number)
+                document.getElementById("number").innerHTML= number
+        }
+        document.getElementById("resetbtn").onclick = function reset_number(){
+                number = 0;
+                console.log(number)
+                document.getElementById("number").innerHTML = number
+        }
+        let age = 0
+        let msg = " "
+
+        /*function add_numbers(num1,num2){
+        return num1 + num2
+        */
+        document.getElementById("confirm_btn").onclick = function check_age(){
+        console.log("button clicked !")
+             var age = document.getElementById("age").value;
+
+            if(age<=18){
+                //you are not allowed
+                msg = "You are not allowed"
+                document.getElementById("get in").innerHTML = msg
+                console.log("you are not allowed")
+            }else{
+                msg = "Welcome to this party"
+                document.getElementById("get in").innerHTML = msg
+                console.log("welcome to the club")
+            }
+        }
+        </script>
+        
+    </body>
+</html>
